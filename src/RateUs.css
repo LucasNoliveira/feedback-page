@@ -1,0 +1,79 @@
+.rate-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f8c291;
+}
+
+.rate-us-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.rate-us-card h2 {
+    margin-bottom: 10px;
+}
+
+.rate-us-card p {
+    margin-bottom: 20px;
+}
+
+.emojis {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.emojis button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+}
+
+.emojis button:hover {
+    filter: grayscale(0%);
+}
+
+.emojis button p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.emojis button.selected {
+    font-weight: bold;
+    filter: grayscale(0%);
+}
+
+.submit-button,
+.skip-button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.skip-button {
+    background-color: transparent;
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+.thank-you-message {
+    font-size: 24px;
+    color: #2c3e50;
+}
